@@ -38,10 +38,10 @@ async function excluir(id) {
 </script>
 
 <template>
-  <h1>acessorio</h1>
+  <h1>Acessórios</h1>
   <hr />
   <div class="form">
-    <input type="text" v-model="acessorio.descricao" placeholder="Descricao" />
+    <input type="text" v-model="acessorio.descricao" placeholder="Descrição" />
     <button @click="salvar" class="gap">Salvar</button>
     <button @click="limpar">Limpar</button>
   </div>

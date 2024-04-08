@@ -38,7 +38,7 @@ async function excluir(id) {
 </script>
 
 <template>
-  <h1>cores</h1>
+  <h1>Cores</h1>
   <hr />
   <div class="form">
     <input type="text" v-model="cor.nome" placeholder="Nome" />
